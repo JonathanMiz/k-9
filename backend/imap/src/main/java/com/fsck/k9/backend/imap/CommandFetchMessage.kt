@@ -16,7 +16,7 @@ internal class CommandFetchMessage(private val imapStore: ImapStore) {
         fetchProfile: FetchProfile,
         maxDownloadSize: Int
     ): Message {
-        val folder = imapStore.getFolder(folderServerId)
+        val folderdsadas = imapStore.getFolder(folderServerId)
         try {
             folder.open(ImapFolder.OPEN_MODE_RO)
 
